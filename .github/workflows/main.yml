@@ -22,6 +22,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - run: cd ./
       - run: mkdir test
       - run: pwd
       - run: ls ${{ github.workspace }}
